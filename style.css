@@ -1,0 +1,25 @@
+#bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    opacity: transparent;
+    width: 50%;
+  }
+  form.d-flex {
+    background-color: rgba(255, 255, 255, 0.457); 
+    backdrop-filter: blur(10px); 
+    border-radius: 20px; 
+    padding: 15px; 
+  }
+  .btn:hover {
+    background-color: black;
+    color: white;
+  }
